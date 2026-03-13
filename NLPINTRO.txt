@@ -1,0 +1,41 @@
+There are 4 stages in NLP:
+
+1. MORPHOLOGICAL ANALYSIS -tokenisation- stop words removal, stemming and lemmatisation
+2.SYNTACTIC ANALYSIS—> find Grammatical structure of sentence is correct or wrong.—>parts of speech
+3.SEMANTIC ANALYSIS—>meaning —>synonyms. -> named entity recognition
+4.PRAGMATIC ANALYSIS—>contextual meaning
+
+1. MORPHOLOGICAL ANALYSIS
+	
+	
+
+Stemming and Lemmatization —>Finding “Root” Words
+
+running-->Stemming—>run
+Eating—>stemming—>eat
+
+caring-->Lemmatization—>care
+THE CAT SAT ON THE MAT
+
+TOKENS- SENTENCE,WORDS,PHONEMES,PHONES
+
+20 HZ -20KHZ
+
+STOPWORDS REMOVAL —> THE,ON
+IS,ARE,THE ,A,AN
+
+
+NLTK -Natural language toolkit
+
+Nltk.download()
+
+
+Stemming -> finding the root word
+
+Learning,learnt,—>learn
+
+Remove suffixes
+
+Parts of speech
+N v -noun phrase
+V jj -verb phrase
